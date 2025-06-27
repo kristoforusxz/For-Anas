@@ -47,6 +47,28 @@
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+.image-frame-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.framed-image {
+  border: 8px solid #f3d6e4;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 100%;
+  background: #fff;
+}
+
+.framed-image img {
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 .light-background {
   --background-color: #e9e8e6;
