@@ -68,6 +68,10 @@
     });
   }
 
+  const lightbox = GLightbox({
+  selector: '.glightbox'
+});
+
   /**
    * Scroll top button
    */
